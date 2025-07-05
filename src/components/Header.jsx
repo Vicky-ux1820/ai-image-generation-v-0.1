@@ -14,7 +14,7 @@ const Header = ({toggleSidebar}) => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
-      <div className="w-[35%]  relative hidden sm:block">
+      <div className="w-[35%] relative hidden sm:block">
         <span className="absolute inset-y-0 left-1 flex items-center pl-2 pointer-events-none">
           <img src={searchIcon} alt="search" className="h-4 w-4 text-gray-200" />
         </span>
