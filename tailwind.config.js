@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        aztecPurple: '#7741FB',
+        iceberg: '#E3EFFA',
+        feta: '#EFFBF2',
+        pastelPink: '#F8D4C8',
+      },
+    },
   },
   plugins: [],
 } 

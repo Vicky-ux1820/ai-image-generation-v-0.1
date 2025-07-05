@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('../AeonikTRIAL-Regular.ttf');
+}
+
+body{
+    font-family: 'Aeonik';
+}
