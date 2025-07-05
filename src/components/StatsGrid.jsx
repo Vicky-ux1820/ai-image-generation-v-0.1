@@ -15,7 +15,7 @@ const StatsGrid = () => {
         { title: 'Total Orders', value: '21 -', change: '+12%' },
         { title: 'Order items over time', value: '15 -', change: '-5%' },
         { title: 'Return Orders', value: '0 -', change: '+15%' },
-        { title: 'Fulfilled orders over time', value: '12 -', change: '+23%'},
+        { title: 'Fulfilled orders over time', value: '12 -', change: '+23%' },
       ];
 
   const getChartData = (change) => {

@@ -23,7 +23,6 @@ const CreateOrderModal = ({ isOpen, onClose, onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Generate order number if not provided
     const orderData = {
       ...formData,
       order: formData.order || `#${Math.floor(1000 + Math.random() * 9000)}`,
